@@ -27,7 +27,7 @@
         android:rowCount="5"
         android:layout_alignParentBottom="true">
 
-        <!-- Przyciski od 0 do 9 -->
+        <!-- Przyciski operatorów -->
         <Button
             android:id="@+id/button0"
             android:layout_width="wrap_content"
@@ -142,6 +142,14 @@
             android:layout_row="3"
             android:layout_column="3"/>
 
+        <!-- Equals Button -->
+        <Button
+            android:id="@+id/buttonEquals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:layout_row="4"
+            android:layout_column="3"/>
 
     </GridLayout>
 
